@@ -5,8 +5,8 @@ const repeatString = function(word, count) {
     
     finalString = '';
     for(i = 0; i < count; i++){
-        //finalString = finalString.concat(word);
-        finalString += word;
+        finalString = finalString.concat(word);
+        //finalString += word;
     }
     return finalString;
 };
